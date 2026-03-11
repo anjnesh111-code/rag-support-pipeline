@@ -7,8 +7,8 @@ from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDNBUkb5Tw4_i7en2kndM7tPtA-1P_geXE"
-os.environ["PINECONE_API_KEY"] = "pcsk_5UK2tw_MMt4n6T2QsUShCLQ3Zxmdi5ieEBWd2KxwboRUNdpc362XRfp4wPdSHe57C9vT41"
+os.environ["GOOGLE_API_KEY"] = "***************************"
+os.environ["PINECONE_API_KEY"] = "*******************************************8"
 print("Connecting to your Pinecone database...")
 embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-mpnet-base-v2",
